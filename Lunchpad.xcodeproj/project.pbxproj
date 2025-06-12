@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93F8CD542DFADB2700C7975C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F8CD3D2DFADB2500C7975C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F8CD442DFADB2500C7975C;
+			remoteInfo = Lunchpad;
+		};
+		93F8CD5E2DFADB2700C7975C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F8CD3D2DFADB2500C7975C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F8CD442DFADB2500C7975C;
+			remoteInfo = Lunchpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93F8CD452DFADB2500C7975C /* Lunchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F8CD532DFADB2700C7975C /* LunchpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F8CD5D2DFADB2700C7975C /* LunchpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93F8CD472DFADB2500C7975C /* Lunchpad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Lunchpad;
+			sourceTree = "<group>";
+		};
+		93F8CD562DFADB2700C7975C /* LunchpadTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunchpadTests;
+			sourceTree = "<group>";
+		};
+		93F8CD602DFADB2700C7975C /* LunchpadUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunchpadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F8CD422DFADB2500C7975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F8CD502DFADB2700C7975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F8CD5A2DFADB2700C7975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93F8CD3C2DFADB2500C7975C = {
+			isa = PBXGroup;
+			children = (
+				93F8CD472DFADB2500C7975C /* Lunchpad */,
+				93F8CD562DFADB2700C7975C /* LunchpadTests */,
+				93F8CD602DFADB2700C7975C /* LunchpadUITests */,
+				93F8CD462DFADB2500C7975C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F8CD462DFADB2500C7975C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F8CD452DFADB2500C7975C /* Lunchpad.app */,
+				93F8CD532DFADB2700C7975C /* LunchpadTests.xctest */,
+				93F8CD5D2DFADB2700C7975C /* LunchpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F8CD442DFADB2500C7975C /* Lunchpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F8CD672DFADB2700C7975C /* Build configuration list for PBXNativeTarget "Lunchpad" */;
+			buildPhases = (
+				93F8CD412DFADB2500C7975C /* Sources */,
+				93F8CD422DFADB2500C7975C /* Frameworks */,
+				93F8CD432DFADB2500C7975C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93F8CD472DFADB2500C7975C /* Lunchpad */,
+			);
+			name = Lunchpad;
+			packageProductDependencies = (
+			);
+			productName = Lunchpad;
+			productReference = 93F8CD452DFADB2500C7975C /* Lunchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93F8CD522DFADB2700C7975C /* LunchpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F8CD6A2DFADB2700C7975C /* Build configuration list for PBXNativeTarget "LunchpadTests" */;
+			buildPhases = (
+				93F8CD4F2DFADB2700C7975C /* Sources */,
+				93F8CD502DFADB2700C7975C /* Frameworks */,
+				93F8CD512DFADB2700C7975C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F8CD552DFADB2700C7975C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93F8CD562DFADB2700C7975C /* LunchpadTests */,
+			);
+			name = LunchpadTests;
+			packageProductDependencies = (
+			);
+			productName = LunchpadTests;
+			productReference = 93F8CD532DFADB2700C7975C /* LunchpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93F8CD5C2DFADB2700C7975C /* LunchpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F8CD6D2DFADB2700C7975C /* Build configuration list for PBXNativeTarget "LunchpadUITests" */;
+			buildPhases = (
+				93F8CD592DFADB2700C7975C /* Sources */,
+				93F8CD5A2DFADB2700C7975C /* Frameworks */,
+				93F8CD5B2DFADB2700C7975C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F8CD5F2DFADB2700C7975C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93F8CD602DFADB2700C7975C /* LunchpadUITests */,
+			);
+			name = LunchpadUITests;
+			packageProductDependencies = (
+			);
+			productName = LunchpadUITests;
+			productReference = 93F8CD5D2DFADB2700C7975C /* LunchpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F8CD3D2DFADB2500C7975C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					93F8CD442DFADB2500C7975C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					93F8CD522DFADB2700C7975C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 93F8CD442DFADB2500C7975C;
+					};
+					93F8CD5C2DFADB2700C7975C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 93F8CD442DFADB2500C7975C;
+					};
+				};
+			};
+			buildConfigurationList = 93F8CD402DFADB2500C7975C /* Build configuration list for PBXProject "Lunchpad" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F8CD3C2DFADB2500C7975C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93F8CD462DFADB2500C7975C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F8CD442DFADB2500C7975C /* Lunchpad */,
+				93F8CD522DFADB2700C7975C /* LunchpadTests */,
+				93F8CD5C2DFADB2700C7975C /* LunchpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F8CD432DFADB2500C7975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F8CD512DFADB2700C7975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F8CD5B2DFADB2700C7975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F8CD412DFADB2500C7975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F8CD4F2DFADB2700C7975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F8CD592DFADB2700C7975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93F8CD552DFADB2700C7975C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F8CD442DFADB2500C7975C /* Lunchpad */;
+			targetProxy = 93F8CD542DFADB2700C7975C /* PBXContainerItemProxy */;
+		};
+		93F8CD5F2DFADB2700C7975C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F8CD442DFADB2500C7975C /* Lunchpad */;
+			targetProxy = 93F8CD5E2DFADB2700C7975C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93F8CD652DFADB2700C7975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93F8CD662DFADB2700C7975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93F8CD682DFADB2700C7975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lunchpad/Lunchpad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mason.Lunchpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93F8CD692DFADB2700C7975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lunchpad/Lunchpad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mason.Lunchpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		93F8CD6B2DFADB2700C7975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mason.LunchpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lunchpad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lunchpad";
+			};
+			name = Debug;
+		};
+		93F8CD6C2DFADB2700C7975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mason.LunchpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lunchpad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lunchpad";
+			};
+			name = Release;
+		};
+		93F8CD6E2DFADB2700C7975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mason.LunchpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lunchpad;
+			};
+			name = Debug;
+		};
+		93F8CD6F2DFADB2700C7975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9U467WA3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mason.LunchpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lunchpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F8CD402DFADB2500C7975C /* Build configuration list for PBXProject "Lunchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8CD652DFADB2700C7975C /* Debug */,
+				93F8CD662DFADB2700C7975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8CD672DFADB2700C7975C /* Build configuration list for PBXNativeTarget "Lunchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8CD682DFADB2700C7975C /* Debug */,
+				93F8CD692DFADB2700C7975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8CD6A2DFADB2700C7975C /* Build configuration list for PBXNativeTarget "LunchpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8CD6B2DFADB2700C7975C /* Debug */,
+				93F8CD6C2DFADB2700C7975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8CD6D2DFADB2700C7975C /* Build configuration list for PBXNativeTarget "LunchpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8CD6E2DFADB2700C7975C /* Debug */,
+				93F8CD6F2DFADB2700C7975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F8CD3D2DFADB2500C7975C /* Project object */;
+}
