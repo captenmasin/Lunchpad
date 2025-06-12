@@ -13,15 +13,41 @@ var body: some View {
         let availableWidth = geometry.size.width
         let itemWidth: CGFloat = 120
         let columnCount = max(Int(availableWidth / itemWidth), 1)
-        let columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: columnCount)
+        let columns = Array(
+            repeating: GridItem(.flexible(), spacing: 0), count: columnCount)
+        
+        if let screen = NSScreen.main,
+           let wallpaperURL = NSWorkspace.shared.desktopImageURL(for: screen),
+           let nsImage = NSImage(contentsOf: wallpaperURL) {
+        }
+    
 
         ZStack {
+            if let screen = NSScreen.main,
+               let wallpaperURL = NSWorkspace.shared.desktopImageURL(for: screen),
+               let nsImage = NSImage(contentsOf: wallpaperURL) {
+                
+                Image(nsImage: nsImage)
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+                
+                Rectangle()
+                    .fill(.ultraThinMaterial)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+            
             ScrollViewReader { proxy in
                 VStack(spacing: 0) {
                     HStack {
-                        TextField("Search", text: $viewModel.searchText)
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                        Button("Reset") { viewModel.resetLayout() }
+                        TextField(
+                            "Search",
+                            text: $viewModel.searchText
+                        )
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        
+                        Button("Reset") { viewModel.resetLayout()
+                        }
                     }
                     .padding()
 
@@ -79,10 +105,10 @@ func appIcon(for item: AppItem) -> some View {
             Image(nsImage: app.icon)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 64, height: 64)
+                .frame(width: 80, height: 80)
                 .cornerRadius(12)
             Text(app.name)
-                .font(.caption)
+                .font(.subheadline)
                 .lineLimit(1)
         case .folder(let folder):
             ZStack {
@@ -95,7 +121,7 @@ func appIcon(for item: AppItem) -> some View {
                     }
                     .frame(width: 64, height: 64)
                     Text(folder.name)
-                        .font(.caption)
+                    .font(.subheadline)
                         .lineLimit(1)
                 }
             }
