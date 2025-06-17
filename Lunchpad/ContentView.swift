@@ -40,11 +40,9 @@ var body: some View {
             ScrollViewReader { proxy in
                 VStack(spacing: 0) {
                     HStack {
-                        TextField(
-                            "Search",
+                        SpotlightSearchField(
                             text: $viewModel.searchText
                         )
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         
                         Button("Reset") { viewModel.resetLayout()
                         }
@@ -108,7 +106,7 @@ func appIcon(for item: AppItem) -> some View {
                 .frame(width: 80, height: 80)
                 .cornerRadius(12)
             Text(app.name)
-                .font(.subheadline)
+                .font(.body)
                 .lineLimit(1)
         case .folder(let folder):
             ZStack {
